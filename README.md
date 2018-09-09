@@ -1,7 +1,10 @@
 # php-blog
-THIS BLOG HAS BEEN CREATED FOR EDUCATIONAL PURPOSES ONLY.
 
-Just upload the SQL " Database.sql " in your phpmyadmin and import it!
+ THIS BLOG HAS BEEN CREATED FOR EDUCATIONAL PURPOSES ONLY.
+
+< It's a personal blog >
+
+! Just upload the SQL " Database.sql " in your phpmyadmin and import it!
 and you can change the password of the root
 
 
