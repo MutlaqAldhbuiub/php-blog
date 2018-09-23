@@ -33,13 +33,16 @@
 <?php
 
 session_start();
-$id = $_GET['id'];
-$sql = "SELECT title,body,author,created_at,id FROM posts WHERE id =".$id;
-$result = mysqli_query($conn, $sql);
+
 
 if(isset($_GET['id'])){
+    $id = $_GET['id'];
+    $sql = "SELECT title,body,author,created_at,id FROM posts WHERE id =".$id;
+    $result = mysqli_query($conn, $sql);
+
 
     $row = mysqli_fetch_assoc($result);
+
 
     echo $row['title']."<BR>";
     echo $row['body']."<BR>";
@@ -47,6 +50,12 @@ if(isset($_GET['id'])){
 
 
 
+}else{
+    echo "<div class=\"container\">";
+    echo "<h1>ERROR 404</h1>";
+    echo "<hr>";
+    echo "<h3>contact with :<a href='mailto:Mutlaq@aldhbuiub.org'>Admin Mail</a></h3>";
+    echo "</div>";
 }
 
 
