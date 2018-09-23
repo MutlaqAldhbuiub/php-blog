@@ -3,7 +3,6 @@
 
 session_start();
 
-$_POST['success'] = $_SESSION['success'];
 if(isset($_SESSION['username'])){
 
 }else{
@@ -64,9 +63,6 @@ if(isset($_SESSION['username'])){
 
     <!--        the right!-->
         <div class="col-sm-9">
-
-
-        </div>
 
     </div>
 

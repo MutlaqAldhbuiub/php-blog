@@ -33,7 +33,7 @@ else{
             $password = mysqli_real_escape_string($conn,$password);
             //Checking is user existing in the database or not
             $query = "SELECT * FROM `users` WHERE username='$username'
-              and password='".md5($password)."'";
+              and password='".md5($password)."' AND is_admin = 1";
             $result = mysqli_query($conn,$query) or die(mysql_error());
             $rows = mysqli_num_rows($result);
             if($rows==1){

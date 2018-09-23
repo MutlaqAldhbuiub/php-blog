@@ -10,7 +10,6 @@ if(isset($_POST['submit'])) {
     $publish =mysqli_real_escape_string($conn, $_POST['publish']);
     //$unublish =mysqli_real_escape_string($conn, $_POST['UnPublished']);
 
-
     $query = "INSERT INTO posts(title,author,body,publish) values('$title','$author','$body','$publish');";
     if (mysqli_query($conn, $query)) {
 

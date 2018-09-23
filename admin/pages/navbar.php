@@ -8,7 +8,7 @@
 ?>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Mutlaq Blog Admin Panel</a>
+    <a class="navbar-brand" href="../index.php">Mutlaq Blog Admin Panel</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,6 +23,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="orders/deletePost.php">Delete Post</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../logout.php">Logout</a>
+            </li>
+
         </ul>
     </div>
 </nav>
