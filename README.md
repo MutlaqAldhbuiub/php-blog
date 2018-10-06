@@ -8,5 +8,6 @@
 and you can change the password of the root
 
 
-# username : root
-# password : 1
+
+$username = root
+$password = 1
